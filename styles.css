@@ -1,0 +1,148 @@
+* {
+    margin: 0 auto;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2b1835;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 14px;
+}
+
+.logo {
+    max-width: 227px;
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+    margin: 24px 0;
+}
+
+.formulario label {
+    color: white;
+    font-size: 20px;
+}
+
+.entrada {
+    width: 100%;
+    height: 48px;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 0 14px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.botao {
+    width: 100%;
+    height: 48px;
+    background-color: white;
+    cursor: pointer;
+    border: 0px;
+    border-radius: 4px;
+    color: #111111;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.resultado {
+    background-color: white;
+    max-width: 520px;
+    padding: 20px 28px;
+    text-align: center;
+    margin-top: 28px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    user-select: none;
+    transition: transform 0.4s;
+    transition: background-color 0.2s;
+}
+
+.hide {
+    display: none;
+}
+
+.resultado:hover {
+    transform: scale(1.1);
+    background-color: gray;
+}
+
+#texto-resultado {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.resultado span {
+    color: black;
+    margin-bottom: 16px;
+}
+
+.informacao {
+    position: fixed;
+    right: 14px;
+    bottom: 22px;
+}
+
+.imagem-informacao {
+    width: 66px;
+    height: 66px;
+}
+
+.textinho {
+    color: black;
+    background-color: white;
+    padding: 10px 8px;
+    border-radius: 6px;
+    position: relative;
+    bottom: 28px;
+    display: none;
+    font-weight: bold;
+}
+
+.informacao:hover .textinho {
+    display: inline;
+}
+
+.sobre {
+    max-width: 620px;
+    background-color: #111111;
+    padding: 24px 14px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.sobre p {
+    color: white;
+    margin-bottom: 8px;
+    line-height: 150%;
+}
+
+.botao-calcular {
+    background-color: white;
+    color: #111111;
+    height: 48px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 24px;
+    border-radius: 4px;
+}
